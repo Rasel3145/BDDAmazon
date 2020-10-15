@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-15T18:40:23.169Z",
+        "line": 2,
+        "name": "Ebay Homepage",
+        "description": "",
+        "id": "access-ebay-homepage;ebay-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33306000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I enter https:www.Ebay.com on the address bar",
+            "match": {
+              "location": "stepdefinitions.EbayHomepage.i_enter_https_www_Ebay_com_on_the_address_bar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2138000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I should be on Ebay Homepage",
+            "match": {
+              "location": "stepdefinitions.EbayHomepage.i_should_be_on_Ebay_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Access Ebay homepage",
+    "description": "",
+    "id": "access-ebay-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/ebay.feature",
+    "tags": []
+  }
+]
